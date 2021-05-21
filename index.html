@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      let companies = `[
+    {
+        "name":"MicroSoft",
+        "numberOfEmployees": 9000,
+        "ceo": "Mark",
+        "rating": 3.4 
+    },
+    {
+        "name":"CafeShop",
+        "numberOfEmployees": 20,
+        "ceo": null,
+        "rating": 4.5
+    }
+]`;
+
+      console.log(JSON.parse(companies)[1].rating);
+    </script>
+  </body>
+</html>
