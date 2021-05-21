@@ -7,22 +7,24 @@
   </head>
   <body>
     <script type="text/javascript">
-      let companies = `[
-    {
-        "name":"MicroSoft",
-        "numberOfEmployees": 9000,
-        "ceo": "Mark",
-        "rating": 3.4 
-    },
-    {
-        "name":"CafeShop",
-        "numberOfEmployees": 20,
-        "ceo": null,
-        "rating": 4.5
-    }
-]`;
-
-      console.log(JSON.parse(companies)[1].rating);
+      let companies = `{
+    "companies": [
+        {
+            "name":"MicroSoft",
+            "numberOfEmployees": 9000,
+            "ceo": "Mark",
+            "rating": 3.4 
+        },
+        {
+            "name":"CafeShop",
+            "numberOfEmployees": 20,
+            "ceo": null,
+            "rating": 4.5
+        }
+    ]
+}`;
+      /*    display CEO name of the first company  "Mark"  */
+      console.log(JSON.parse(companies).companies[0].ceo);
     </script>
   </body>
 </html>

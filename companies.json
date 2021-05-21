@@ -1,14 +1,16 @@
-[
-    {
-        "name":"MicroSoft",
-        "numberOfEmployees": 9000,
-        "ceo": "Mark",
-        "rating": 3.4 
-    },
-    {
-        "name":"CafeShop",
-        "numberOfEmployees": 20,
-        "ceo": null,
-        "rating": 4.5
-    }
-]
+{
+    "companies": [
+        {
+            "name":"MicroSoft",
+            "numberOfEmployees": 9000,
+            "ceo": "Mark",
+            "rating": 3.4 
+        },
+        {
+            "name":"CafeShop",
+            "numberOfEmployees": 20,
+            "ceo": null,
+            "rating": 4.5
+        }
+    ]
+}
